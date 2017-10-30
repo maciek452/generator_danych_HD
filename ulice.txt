@@ -1,0 +1,162 @@
+﻿ul. 1 Maja 
+ul. 3 Maja 
+ul. Adama Asnyka 
+ul. Adama Mickiewicza 
+ul. Akacjowa 
+ul. Antoniego Osuchowskiego 
+ul. Antoniego Słonimskiego 
+ul. Armii Krajowej 
+ul. Bartna Strona 
+ul. Białostocka 
+ul. Boczna 
+ul. Bogumiła Linki 
+ul. Bohaterów Westerplatte 
+ul. Bohaterów Września 1939 
+ul. Bolesława Chrobrego 
+ul. Bolesława Krzywoustego 
+ul. Bolesława Prusa 
+ul. Borowa 
+ul. Brzozowa 
+ul. Bydgoska 
+ul. Ciasna 
+ul. Długa 
+ul. Droga Krajowa 58 
+ul. Działkowa 
+ul. Elizy Orzeszkowej 
+ul. Feliksa Nowowiejskiego 
+ul. Fryderyka Chopina 
+ul. Fryderyka Leyka 
+ul. Gdańska 
+ul. Generała Józefa Bema 
+ul. Generała Władysława Andersa 
+ul. Generała Władysława Sikorskiego 
+ul. Gnieźnieńska 
+ul. Grudziądzka 
+ul. Gustawa Gizewiusza 
+ul. Gustawa Wasińskiego 
+ul. Henryka Sienkiewicza 
+ul. Henryka Wieniawskiego 
+ul. Ignacego Krasickiego 
+ul. Ignacego Paderewskiego 
+ul. Jakuba Kowalewskiego 
+ul. Jana Brzechwy 
+ul. Jana III Sobieskiego 
+ul. Jana Kasprowicza 
+ul. Jana Kochanowskiego 
+ul. Jana Lipperta 
+ul. Janusza Korczaka 
+ul. Jarosława Dąbrowskiego 
+ul. Jarosława Iwaszkiewicza 
+ul. Jędrzeja Śniadeckiego 
+ul. Jerzego Lanca 
+ul. Jeziorna 
+ul. Józefa Narońskiego 
+ul. Juliana Tuwima 
+ul. Juliusza Słowackiego 
+ul. Juranda 
+ul. Kardynała Stefana Wyszyńskiego 
+ul. Kasztanowa 
+ul. Kazimierza Jagiellończyka 
+ul. Kazimierza Pułaskiego 
+ul. Kazimierza Wielkiego 
+ul. Klasztorna 
+ul. Klonowa 
+ul. Kolejowa 
+ul. Konstantego Ildefonsa Gałczyńskiego 
+ul. Królowej Jadwigi 
+ul. Krótka 
+ul. Krzysztofa Mrongowiusza 
+ul. Krzywa 
+ul. Księdza Władysława Łaniewskiego 
+ul. Kwiatowa 
+ul. Lemańska 
+ul. Leśna 
+ul. Lidzbarska 
+ul. Lipowa 
+ul. Lniana 
+ul. Łódzka 
+ul. Łomżyńska 
+ul. Lwowska 
+ul. Mariana Buczka 
+ul. Marii Konopnickiej 
+ul. Marii Rodziewiczówny 
+ul. Marii Skłodowskiej-Curie 
+ul. Mazurska 
+ul. Melchiora Wańkowicza 
+ul. Michała Drzymały 
+ul. Michała Kajki 
+ul. Michała Rafajłowicza 
+ul. Mieszka I 
+ul. Mikołaja Kopernika 
+ul. Mikołaja Reja 
+ul. Miodowa 
+ul. Mławska 
+ul. Nauczycielska 
+ul. Niepodległości 
+ul. Norwida 
+ul. Nowa 
+ul. Odrodzenia 
+ul. Ogrodowa 
+ul. Osiedleńcza 
+ul. Oskara Kolberga 
+ul. Ostrołęcka 
+ul. Partyzantów 
+ul. Pasymska 
+ul. Pawła Nowakowskiego 
+ul. Piaskowa 
+ul. Piastów 
+ul. Plac Wolności 
+ul. Podgórna 
+ul. Podleśna 
+ul. Polna 
+ul. Polska 
+ul. Polskich Dzieci Wojny 
+ul. Poprzeczna 
+ul. Powstańców Warszawy 
+ul. Poznańska 
+ul. Przemysłowa 
+ul. Przerwy-Tetmajera 
+ul. Reinholda Barcza 
+ul. Reymonta 
+ul. Robotnicza 
+ul. Romualda Traugutta 
+ul. Równoległa 
+ul. Śląska 
+ul. Słoneczna 
+ul. Solidarności 
+ul. Spacerowa 
+ul. Spółdzielcza 
+ul. Sportowa 
+ul. Stanisława Augusta Poniatowskiego 
+ul. Stanisława Moniuszki 
+ul. Stanisława Staszica 
+ul. Stanisława Wyspiańskiego 
+ul. Stefana Batorego 
+ul. Stefana Żeromskiego 
+ul. Suwalska 
+ul. Sybiraków 
+ul. Szwedzka 
+ul. Tadeusza Kościuszki 
+ul. Tatarkiewicza 
+ul. Toruńska 
+ul. Towarowa 
+ul. Unnamed Road 
+ul. Walentego Barczewskiego 
+ul. Walentego Habandta 
+ul. Warmińska 
+ul. Warszawska 
+ul. Wiejska 
+ul. Wielbarska 
+ul. Wileńska 
+ul. Wincentego Pola 
+ul. Władysława Broniewskiego 
+ul. Władysława IV 
+ul. Władysława Jagiełły 
+ul. Władysława Łokietka 
+ul. Władysława Warneńczyka 
+ul. Wojciecha Kętrzyńskiego 
+ul. Wołyńska 
+ul. Zakole 
+ul. Zbigniewa Sobieszczańskiego 
+ul. Żwirki i Wigury 
+ul. Zygmunta Augusta 
