@@ -9,52 +9,24 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Random;
 
 public class Main {
 
     public static void main(String[] args) {
 
+        StudentsGenerator studentsGenerator = new StudentsGenerator(2002, 55.3);
+        ArrayList<Student> students = new ArrayList<>();
 
-        Random random = new Random();
-        TestResultsGenerator testResultsGenerator = new TestResultsGenerator();
-        PESELGenerator PESELgenerator = new PESELGenerator();
-        ArrayList<City> cities = loadCities(Paths.get("miasta.txt"));
-        ArrayList<String> streets = loadLines(Paths.get("ulice.txt"));
-        ArrayList<String> maleNames = loadLines(Paths.get("imiona_meskie.txt"));
-        ArrayList<String> femaleNames = loadLines(Paths.get("imiona_zenskie.txt"));
-        ArrayList<String> maleSurnames = loadLines(Paths.get("nazwiska_meskie.txt"));
-        ArrayList<String> femaleSurnames = loadLines(Paths.get("nazwiska_zenskie.txt"));
-    }
+        for (int i = 0; i < 10; i++)
+            students.add(studentsGenerator.getNextStudent());
 
-    public static ArrayList<City> loadCities(Path file){
-        ArrayList<City> cities = new ArrayList<>();
-        Charset charset = Charset.forName("UTF-8");
-        try (BufferedReader reader = Files.newBufferedReader(file, charset)) {
-            String line;
-            while ((line = reader.readLine()) != null) {
-                cities.add(new City(line.split(" ")[0], line.split(" ")[1]));
-            }
-        } catch (IOException x) {
-            System.err.format("IOException: %s%n", x);
+        for (Student student: students) {
+            System.out.println(student.toString());
+
         }
-        return cities;
-    }
 
-    public static ArrayList<String> loadLines(Path file){
-        ArrayList<String> lines = new ArrayList<>();
-        Charset charset = Charset.forName("UTF-8");
-        try (BufferedReader reader = Files.newBufferedReader(file, charset)) {
-            String line;
-            while ((line = reader.readLine()) != null) {
-                lines.add(line);
-            }
-        } catch (IOException x) {
-            System.err.format("IOException: %s%n", x);
-        }
-        return lines;
-    }
 
+    }
     public static void changeStreets(Path file){
         Charset charset = Charset.forName("UTF-8");
         Path output = Paths.get("ulice2.txt");
@@ -75,7 +47,7 @@ public class Main {
 
     public static void splitSurnames(Path file){
         Charset charset = Charset.forName("UTF-8");
-        Path outputMale = Paths.get("nazwska_meskie.txt");
+        Path outputMale = Paths.get("nazwiska_meskie.txt");
         Path outputFemale = Paths.get("nazwiska_zenskie.txt");
         try (BufferedReader reader = Files.newBufferedReader(file, charset);
              BufferedWriter writerMale = Files.newBufferedWriter(outputMale, charset);
