@@ -3,24 +3,33 @@ package main.java;
 /**
  * Created by Maciek on 30.10.2017.
  */
+
 public class Student {
 
     private String PESEL;
     private City city;
     private String streetName;
     private String homeNumber;
-    private int mathNatureExamResult;
-    private int humanisticExamResult;
-    private int languageExamResult;
+    private String name;
+    private String surname;
 
-    public Student(String PESEL, City city, String streetName, String homeNumber, int mathNatureExamResult, int humanisticExamResult, int languageExamResult){
+
+    private JuniorSchoolResults juniorSchoolResults;
+
+    public Student(String PESEL, City city, String streetName, String homeNumber,
+                   JuniorSchoolResults juniorSchoolResults, String name, String surname){
         this.PESEL = PESEL;
         this.city = city;
         this.streetName = streetName;
         this.homeNumber = homeNumber;
-        this.mathNatureExamResult = mathNatureExamResult;
-        this.humanisticExamResult = humanisticExamResult;
-        this.languageExamResult = languageExamResult;
+        this.juniorSchoolResults = juniorSchoolResults;
+        this.name = name;
+        this.surname = surname;
+        }
+
+    public String toString(){
+        return PESEL + "\t" + name + "\t" + surname + "\t" + city.getPostCode() + "\t" + city.getName() + "\t" + streetName + "\t" +
+                homeNumber + "\t" + juniorSchoolResults.toString();
     }
 
     public String getPESEL() {
@@ -39,18 +48,6 @@ public class Student {
         return homeNumber;
     }
 
-    public int getMathNatureExamResult() {
-        return mathNatureExamResult;
-    }
-
-    public int getHumanisticExamResult() {
-        return humanisticExamResult;
-    }
-
-    public int getLanguageExamResult() {
-        return languageExamResult;
-    }
-
     public void setCity(City city) {
         this.city = city;
     }
@@ -61,5 +58,9 @@ public class Student {
 
     public void setHomeNumber(String homeNumber) {
         this.homeNumber = homeNumber;
+    }
+
+    public JuniorSchoolResults getJuniorSchoolResults() {
+        return juniorSchoolResults;
     }
 }
